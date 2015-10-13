@@ -23,3 +23,9 @@ set expandtab
 set number " show line numbers
 set showcmd " show command in bottom bar
 set cursorline " adds horizontal line to the line your cursor is on
+
+" vim-airline package configuration (https://github.com/bling/vim-airline)
+set laststatus=2
+
+" NERDTree (https://github.com/scrooloose/nerdtree)
+" autocmd vimenter * NERDTree " Open NERDTree when vim starts
